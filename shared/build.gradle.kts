@@ -19,7 +19,7 @@ kotlin {
 
     sourceSets {
         val commonMain by getting {
-            dependencies{
+            dependencies {
                 implementation("com.squareup.sqldelight:runtime:1.5.3")
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
             }
@@ -42,6 +42,7 @@ kotlin {
             dependencies {
                 implementation("com.squareup.sqldelight:native-driver:1.5.3")
             }
+
             dependsOn(commonMain)
             iosX64Main.dependsOn(this)
             iosArm64Main.dependsOn(this)
@@ -60,15 +61,14 @@ kotlin {
 }
 
 sqldelight{
-    database("NoteDatabase") {
+    database("NoteDatabase"){
         packageName = "com.plcoding.noteappkmm.database"
         sourceFolders = listOf("sqldelight")
     }
 }
 
-
 android {
-    namespace = "com.example.noteappkmm"
+    namespace = "com.plcoding.noteappkmm"
     compileSdk = 32
     defaultConfig {
         minSdk = 21

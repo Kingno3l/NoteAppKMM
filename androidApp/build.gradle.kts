@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.noteappkmm.android"
+    namespace = "com.plcoding.noteappkmm.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.example.noteappkmm.android"
+        applicationId = "com.plcoding.noteappkmm.android"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
