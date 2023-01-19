@@ -9,14 +9,20 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+<<<<<<< HEAD
 import androidx.compose.ui.graphics.Color
+=======
+>>>>>>> ad7e989 (created database and inserted nodes)
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+<<<<<<< HEAD
 import com.plcoding.noteappkmm.Greeting
+=======
+>>>>>>> ad7e989 (created database and inserted nodes)
 
 @Composable
 fun MyApplicationTheme(

@@ -60,8 +60,13 @@ kotlin {
     }
 }
 
+<<<<<<< HEAD
 sqldelight{
     database("NoteDatabase"){
+=======
+sqldelight {
+    database("NoteDatabase") {
+>>>>>>> ad7e989 (created database and inserted nodes)
         packageName = "com.plcoding.noteappkmm.database"
         sourceFolders = listOf("sqldelight")
     }
@@ -69,9 +74,16 @@ sqldelight{
 
 android {
     namespace = "com.plcoding.noteappkmm"
+<<<<<<< HEAD
     compileSdk = 32
     defaultConfig {
         minSdk = 21
         targetSdk = 32
+=======
+    compileSdk = 33
+    defaultConfig {
+        minSdk = 21
+        targetSdk = 33
+>>>>>>> ad7e989 (created database and inserted nodes)
     }
 }
